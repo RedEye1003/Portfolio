@@ -1,0 +1,87 @@
+
+
+.timeline-content {
+    position: relative;
+    width: 25%;
+    padding: 10px 30px;
+    border-radius: 4px;
+    box-shadow: 0 20px 25px 15px rgb(0 0 0 / 30%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(147deg, #545b62a8, black);
+    color: white;
+    margin-left: 530px;
+}
+.date {
+    background: #FF4081;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.timeline-img-header {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+    /* background-image: url(assets/images/education-page/edTimeline1.png); */
+}
+
+@media (max-width:1180px){
+    .tech_card{
+        width: 45vw;
+    }
+    .tech_cardc{
+        width: 45vw;
+    }
+    .tech_cardresume{
+        width: 45vw;
+    }
+    .techstack-box{
+        justify-content: center !important;
+    }
+}
+@media (max-width:1000px){
+    .tech_card{
+        width: 90vw;
+    }
+    .tech_cardc{
+        width: 90vw;
+    }
+    .tech_cardresume{
+        width: 90vw;
+        margin-left: 0px;
+    }
+    .timeline-content {
+        width: 90vw;
+        margin-left: 20px;
+    }
+}
+@media (max-width:450px){
+    .skill-head{
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .main-heading{
+        font-size: 25px;
+    }
+    .techstacks_icons .techstack_icon i {
+        font-size: 1.8rem;
+    }
+    .pre-heading{
+        font-size: 13px;
+    }
+}
+@media (max-width:350px){
+    .techstack-box{
+        justify-content: center;
+    }
+    .tech_card{
+        width: 95vw;
+    }
+    .timeline-content {
+        width: 95vw;
+    }
+}
